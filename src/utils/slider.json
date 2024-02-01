@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Joel Embiid",
+      "ranking": "1st",
+      "score": "35.3 Points",
+      "image": "./images/Players/Embiid_image.png"
+    },
+    {
+      "name": "Luka Doncic",
+      "ranking": "2nd",
+      "score": "34.7 Points",
+      "image": "./images/Players/Luka_Doncic_image.png"
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "ranking": "3rd",
+      "score": "31.3 Points",
+      "image": "./images/Players/SGA_image.png"
+    },
+    {
+      "name": "Giannis Antetokounmpo",
+      "ranking": "4th",
+      "score": "30.9 Points",
+      "image": "./images/Players/Giannis_image.png"
+    },
+    {
+      "name": "Kevin Durant",
+      "ranking": "5th",
+      "score": "28.4 Points",
+      "image": "./images/Players/Kevin_Durant_image2.png"
+    },
+    {
+      "name": "Devin Booker",
+      "ranking": "6th",
+      "score": "28.3 Points",
+      "image": "./images/Players/Kevin_Durant_image2.png"
+    },
+    {
+      "name": "Donovan Mitchell",
+      "ranking": "7th",
+      "score": "28.2 Points",
+      "image": "./images/Players/Mitchell_image.png "
+    },
+    {
+      "name": "Stephen Curry",
+      "ranking": "8th",
+      "score": "27.5 Points",
+      "image": "./images/Players/Curry_image.png"
+    },
+    {
+      "name": "De'Aaron Fox",
+      "ranking": "9th",
+      "score": "27.2 Points",
+      "image": "./images/Players/Fox_image.png"
+    },
+    {
+      "name": "Trae Young",
+      "ranking": "10th",
+      "score": "27.0 Points",
+      "image": "./images/Players/Trae_image.png"
+    }
+  ]
+  

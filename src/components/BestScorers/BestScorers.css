@@ -1,0 +1,130 @@
+.r-container{
+   /* overflow: hidden; */
+   background: rgb(29, 26, 26);
+position: relative;
+}
+
+.b-head{
+   margin-bottom: 2rem; 
+   margin-left: 25px;
+}
+.b-card{
+   gap: 0.6rem;
+   padding: 1rem;
+   border-radius: 17px;
+   max-width: max-content;
+   margin: auto;
+   transition: all 300ms ease-in;
+
+}
+.b-card>img{
+
+   width: 230px;
+   height:165px;
+border-radius: 20px;
+}
+
+.b-card:hover{
+   cursor: pointer;
+transform: scale(1.025);
+transition: 0.6s;
+}
+
+.b-card>:nth-child(2){
+   font-size: 1.3rem;
+   font-weight: 600;
+   color: rgb(255, 255, 255);
+}
+.b-card>:nth-child(3){
+   font-size: 1.5rem;
+   color: rgb(255, 255, 255);
+
+}
+.b-card>:nth-child(4){
+   font-size: 1.1rem;
+   width: 15rem;
+   color: rgb(255, 255, 255);
+   font-weight: bold;
+
+}
+
+.b-card:hover{
+   scale: 1.025;
+   cursor: pointer;
+   background: linear-gradient(180deg
+   rgba(255, 255, 255, 0)0%,
+   rgba(55, 86, 212, 0.46)217.91%);
+   box-shadow: 0px 12px 19px 2px rgba(45, 44, 44, 0.21);;
+}
+
+.swiper-horizontale{
+   overflow: visible;
+}
+
+.b-buttons{
+
+top: -4rem;
+right: 0;
+gap: 1rem;
+z-index: 1;
+}
+
+.b-buttons button{
+   font-size: 1.2rem;
+   padding: 0.2rem 0.8rem;
+   color: rgb(107, 102, 102);
+   border: none;
+   border-radius: 5px;
+   background-color: #fff;
+   cursor: pointer;
+   filter: drop-shadow(5px 2px 5px rgb(1, 39, 1));
+}
+
+
+.b-buttons>:nth-child(1){
+background-color: #ffffff;
+}
+
+.b-buttons>:nth-child(2){
+   box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+
+@media (max-width:1150px) {
+   .b-card>img{
+      width: 180px;
+      height:135px;
+   border-radius: 20px;
+   }
+   .b-card>:nth-child(2){
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: rgb(255, 255, 255);
+   }
+   .b-card>:nth-child(3){
+      font-size: 1.3rem;
+      color: rgb(255, 255, 255);
+   
+   }
+   .b-card>:nth-child(4){
+      font-size: 1rem;
+      width: 15rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+   
+   }
+   .b-buttons button{
+      font-size: 1rem;
+      padding: 0.1rem 0.6rem;
+      color: rgb(107, 102, 102);
+      border: none;
+      border-radius: 5px;
+      background-color: #fff;
+      cursor: pointer;
+      filter: drop-shadow(5px 2px 5px rgb(1, 39, 1));
+   }
+   
+
+   
+}
+

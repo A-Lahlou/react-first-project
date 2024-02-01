@@ -1,0 +1,46 @@
+.l-container{
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+.l-left{
+    gap: 1rem;
+}
+.l-right.primarytext{
+    font-size: 0.8rem;
+}
+.l-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+
+}
+
+.l-left>img{
+  margin-left: 50px;
+}
+
+@media (max-width:680px) {
+    .l-right>span:nth-child(1){
+      font-size: 0.7rem;
+    }
+    .l-right>span:nth-child(2){
+        font-size: 0.7rem;
+      }
+      .l-menu{
+        font-size: 0.7rem;
+      }
+      .l-right{
+        margin-bottom: -13px;
+      }
+      .l-left>img{
+        width: 50px;
+      }
+      .l-left>span{
+        font-size: 0.6rem;
+        margin-bottom: -10px;
+      }
+      
+
+}

@@ -1,0 +1,16 @@
+.f-container{
+    justify-content: space-around;
+    gap: 1rem;
+    background: rgb(29, 26, 26);
+}
+
+.f-container>img{
+    width: 6rem;
+}
+
+@media (max-width:600px) {
+    .f-container>img{
+       width: 4.3rem;
+    }
+    
+}

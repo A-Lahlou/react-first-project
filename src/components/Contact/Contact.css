@@ -1,0 +1,149 @@
+.c-wrapper{
+    background-color: #fff;
+}
+.c-container{
+    justify-content:space-between ;
+    background-color: #fff;
+}
+
+.c-container>div{
+    flex: 1;
+}
+
+.c-right{
+    width: 100%;
+}
+
+.c-left{
+    gap: 0.5rem;
+    margin-left: 25px;
+}
+
+.c-right>img{
+border-radius: 90px;
+}
+
+
+.c-left>span:nth-child(1){
+    color: black;
+}
+
+.c-left>span:nth-child(2){
+    color: blue;
+}
+.contactModes{
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+.contactModes .row{
+    gap: 1.5rem;
+}
+
+.mode .detail{
+ 
+}
+
+.mode{
+    width: 16rem;
+    padding: 1rem;
+    border: 0.8px solid rgba(128, 128, 128, 0.143);
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 300ms ease-in;
+}
+
+.mode .button{
+    width: 100%;
+    background: rgb(225, 229, 229) ;
+    color: rgb(0, 26, 255);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.mode>:nth-child(1){
+    width: 100%;
+    gap: 1.6rem;
+  }
+
+  .mode .detail .primarytext{
+font-size: 1.1rem;
+font-weight: 600;
+  }
+
+  .mode:hover{
+    scale: 1.1;
+    box-shadow: black;
+  }
+
+  .mode .button:hover{
+    background: rgb(83, 83, 225);
+    color: #fff;
+    scale: 0.8;
+  }
+.detail>:nth-child(2){
+    font-size: 1.1rem;
+}
+
+.icon svg{
+    color: blue;
+}
+
+
+@media (max-width:1270px) {
+    .c-right>img{
+        border-radius: 90px;
+        width: 550px;
+        margin-left: 23px;
+        }
+    }
+
+
+@media (max-width:680px) {
+    .c-left>span:nth-child(1){
+      font-size: 1.3rem;
+    }
+    
+    .c-left>span:nth-child(2){
+        font-size: 1.3rem;
+    }
+
+    .c-left>span:nth-child(3){
+        font-size: 0.8rem;
+    }
+    .mode{
+        width: 11rem;
+        padding: 1rem;
+        border: 0.8px solid rgba(128, 128, 128, 0.143);
+        border-radius: 5px;
+        gap: 1rem;
+        transition: all 300ms ease-in;
+    }
+    
+    .mode .button{
+        width: 100%;
+        background: rgb(225, 229, 229) ;
+        color: blue;
+        font-size: 0.7rem;
+        font-weight: 600;
+    }
+    .mode .detail .primarytext{
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+    .mode .detail .secondarytext{
+        font-size: 0.8rem;
+       
+    }
+     .mode .detail .thirdtext{
+        font-size: 0.3rem;
+        font-weight: 600;
+    }
+    .c-right>img{
+        border-radius: 90px;
+        width: 390px;
+        margin-left: 23px;
+        }
+}
+
+
