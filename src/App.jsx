@@ -10,12 +10,14 @@ import Last from "./components/Last/Last";
 
 
 
+
 function App() {
   return (
     <div className="App">
         <div>
       <div className="white-gradient"/>
       <Header/>
+    
      <Hero/>
      </div>
 <Franchises/>

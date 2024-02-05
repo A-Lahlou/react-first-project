@@ -5,6 +5,7 @@ import {BsFillChatDotsFill} from 'react-icons/bs'
 import { FaVideo } from "react-icons/fa6";
 import { IoMailSharp } from "react-icons/io5";
 import {HiChatBubbleBottomCenter} from "react-icons/hi2"
+import IMG17 from '../../images/Contact/Contact_image.png'
 const Contact = () => {
   return (
     <div>
@@ -78,7 +79,7 @@ const Contact = () => {
             </div>
             {/* right side */}
 <div className="c-right">
-  <img src="./images/Contact/Contact_image.png" alt="Image Contact" />
+  <img src={IMG17} alt="Image Contact" />
 </div>
         </div>
       </section>

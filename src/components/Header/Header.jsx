@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './Header.css'
 import {BiMenuAltRight} from 'react-icons/bi'
 import OutsideClickHandler from "react-outside-click-handler"
+import IMG5 from '../../images/logos/NBA.logo.png'
 const Header = () => {
   const [menuOpened, setMenuOpened]= useState(false)
   const getMenuStyles = (menuOpened) => {
@@ -13,7 +14,7 @@ const Header = () => {
   return (
   <section className="h-wrapper">
     <div className="flexcenter paddings innerWidth h-container">
-      <img src="./logos/NBA.logo.png" alt="logo nba" width={100} />
+      <img src= {IMG5} alt="logo nba" width={100} />
 
       <OutsideClickHandler
         onOutsideClick={()=>

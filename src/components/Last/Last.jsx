@@ -1,12 +1,13 @@
 import React from 'react'
 import './Last.css'
+import IMG18 from '../../images/logos/NBA.logo.png'
 const Last = () => {
   return (
     <section className="l-wrapper">
       <div className="paddings innerWidth flexcenter l-container">
         {/* left side */}
         <div className="flexcolstart l-left">
-          <img src="./logos/NBA.logo.png" alt="logo nba" width={80} />
+          <img src={IMG18} alt="logo nba" width={80} />
           <span className='infostext'>
 The very best unofficial NBA website
           </span>

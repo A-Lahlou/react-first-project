@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Hero.css"
+import IMG6 from '../../images/Players/Kevin-Durant.png'
 
 
 const Hero = () => {
@@ -25,7 +26,7 @@ const Hero = () => {
         {/* rigth side */}
         <div className="flexcenter hero-right">
           <div className="image-container">
-            <img src="./images/Kevin-Durant.png" alt="image Kevin durant" />
+            <img src={IMG6} alt="image Kevin durant" />
           </div>
       
             
