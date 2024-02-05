@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/react-first-project/static/css/main.e6135e53.css",
+    "main.js": "/react-first-project/static/js/main.53f0bda0.js",
+    "static/media/Giannis_image.png": "/react-first-project/static/media/Giannis_image.b69c50d8413c762b04b7.png",
+    "static/media/Celtics.logo.png": "/react-first-project/static/media/Celtics.logo.82433f3709ee80fac6f7.png",
+    "static/media/Fox_image.png": "/react-first-project/static/media/Fox_image.847a402524fe7f404ff8.png",
+    "static/media/Luka_Doncic_image.png": "/react-first-project/static/media/Luka_Doncic_image.5c9836c7bce847872f65.png",
+    "static/media/Kevin-Durant.png": "/react-first-project/static/media/Kevin-Durant.51a11d0599ae32295ec8.png",
+    "static/media/SGA_image.png": "/react-first-project/static/media/SGA_image.cab0cd1d9b84f25e5864.png",
+    "static/media/Booker_image.png": "/react-first-project/static/media/Booker_image.e7a8fd518db0c52da8f0.png",
+    "static/media/Mitchell_image.png": "/react-first-project/static/media/Mitchell_image.0a3a034a041d53a4035f.png",
+    "static/media/Embiid_image.png": "/react-first-project/static/media/Embiid_image.1e87831990c96f412f06.png",
+    "static/media/Sixers.logo.png": "/react-first-project/static/media/Sixers.logo.0b64fc541b041766e255.png",
+    "static/media/Warriors.logo.png": "/react-first-project/static/media/Warriors.logo.7f8735c12da09674545a.png",
+    "static/media/Kevin_Durant_image2.png": "/react-first-project/static/media/Kevin_Durant_image2.0ac4ce73371d8f2eae1b.png",
+    "static/media/Suns.logo.png": "/react-first-project/static/media/Suns.logo.b8a1f7b061b27d6cf1b4.png",
+    "static/media/NBA.logo.png": "/react-first-project/static/media/NBA.logo.f252e698c855d3b68a05.png",
+    "static/media/Curry_image.png": "/react-first-project/static/media/Curry_image.6b048c20dd2a4ae89fc8.png",
+    "static/media/Contact_image.png": "/react-first-project/static/media/Contact_image.aad17b8ec46aaf9db079.png",
+    "index.html": "/react-first-project/index.html",
+    "main.e6135e53.css.map": "/react-first-project/static/css/main.e6135e53.css.map",
+    "main.53f0bda0.js.map": "/react-first-project/static/js/main.53f0bda0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6135e53.css",
+    "static/js/main.53f0bda0.js"
+  ]
+}
